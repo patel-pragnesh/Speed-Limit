@@ -1,0 +1,18 @@
+<Alloy>
+	<NavigationWindow id="window">
+		<Window id="win" navBarHidden="true">
+			<ImageView class="logo" >
+				<Button top='0' color='white' title='fake Login' onClick="fakeLogin" />
+			</ImageView>
+			<Label class="title" text="SPEED LIMITER"/>
+			<View class="center">
+				<Label class="subtitle" text="LIMIT SPENDING AND SAVE LIVES"/>
+				<Button class="order" />
+			</View>
+			<View class="footer">
+				<Label id="register" class="register" onClick="termsOfService" />
+				<Label id="login" class="login" />
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

@@ -1,0 +1,119 @@
+".row": {
+	selectionStyle:Ti.UI.iOS.TableViewCellSelectionStyle.NONE,
+	height: Ti.UI.SIZE,
+	backgroundColor: "transparent",
+}
+
+".card": {
+	top: 15,
+	height: Ti.UI.SIZE,
+	width: "95%",
+	backgroundColor: "#FFF",
+	borderRadius: 5,
+	viewShadowColor: "#e3e3e3",
+	viewShadowOffset:{
+		x: 0,
+		y: -3
+	}
+}
+
+".container": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+}
+
+".subContainer": {
+	width: "95%",
+	height: Ti.UI.SIZE,
+	layout: "vertical",
+	top: 20,
+	bottom: 20,
+	left: 20,
+	right: 20
+}
+
+".title": {
+	color: '#000',
+	font: {
+		fontSize: 21,
+		fontFamily: "Futura-CondensedExtraBold"
+	},
+	height: Ti.UI.SIZE,
+	width: "100%"
+}
+
+".subtitle": {
+	textAlign: "left",
+	left: "0%",
+	width: "60%",
+	maxLines: 2,
+	color: '#b7b7b7',
+	font: {
+		fontSize: 13,
+		fontFamily: "Poppins-Regular"
+	},
+	height: Ti.UI.SIZE,
+}
+
+".separator": {
+	top: 15,
+	right: 20,
+	height: 1,
+	width: "100%",
+	backgroundColor: "#ededed"
+}
+
+'#speedAbove': {
+	font: {
+		fontSize: 16,
+		fontFamily: "Futura-Medium"
+	},
+	right: 20,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+'#status': {
+	color: "#898989",
+	font: {
+		fontSize: 16,
+		fontFamily: "Futura-Medium"
+	},
+	right: 0,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}
+
+'.arrow': {
+	font: {
+		fontSize: 12,
+		fontFamily: "iconfont"
+	},
+	right: 0,
+	bottom: 0,
+	height: 16,
+	text: "d"
+}
+
+'.speedLimitContainer': {
+	height: Ti.UI.SIZE,
+	top: 20,
+	right: 20,
+	width: Ti.UI.FILL
+}
+
+'#map': {
+	height: "200",
+	width: "100%"
+}
+
+'.setBoundery': {
+	color: "#44a1ff",
+	font: {
+		fontSize: 20,
+		fontFamily: "Futura-Medium"
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+}

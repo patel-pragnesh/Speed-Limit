@@ -1,0 +1,17 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" title="SHAWN'S CAR">
+			<LeftNavButton>
+				<Label class="navButtons" text="e" onClick="disconnect" />
+			</LeftNavButton>
+
+			<RightNavButton>
+				<Label class="navButtons" text="h" />
+			</RightNavButton>
+			<TableView dataCollection="alerts" dataTransform="alertsTransform">
+		  	<Widget src="com.device.alerts" title="{type}" subtitle="{description}" date="{date}" index="{index}" />
+		  </TableView>
+			<Widget src="com.app.tabbar" id="tabb" index="1" />
+		</Window>
+	</Tab>
+</Alloy>

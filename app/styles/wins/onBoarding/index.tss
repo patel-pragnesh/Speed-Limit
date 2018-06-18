@@ -1,0 +1,103 @@
+".logo": {
+	image: "/images/onBoarding/logo.png",
+	top: 40,
+	left: 20,
+	height: 150
+}
+
+".logo[if=Alloy.Globals.Device.isIphoneX]": {
+	top: 60
+}
+
+".title": {
+	top: 200,
+	color: '#000',
+	font: {
+		fontSize: 50,
+		fontFamily: "Futura-CondensedExtraBold"
+	},
+	height: Ti.UI.SIZE,
+	width: "100%",
+	textAlign: "center"
+}
+
+".title[if=Alloy.Globals.Device.isIphoneX]": {
+	top: 220
+}
+
+
+".center": {
+	height: Ti.UI.SIZE,
+	width: "100%",
+	layout: "vertical"
+}
+
+".subtitle": {
+	color: '#5aacff',
+	font: {
+		fontSize: 20,
+		fontFamily: "Futura-CondensedExtraBold"
+	},
+	height: Ti.UI.SIZE,
+	width: "100%",
+	textAlign: "center"
+}
+
+
+".order": {
+	top: 20,
+	height: 56,
+	borderRadius: 28,
+	width: "90%",
+	backgroundColor: "#5aacff",
+	color: "#FFF",
+	title: "ORDER YOURS NOW",
+	font: {
+		fontSize: 18,
+		fontFamily: "Futura-CondensedExtraBold"
+	}
+}
+
+
+".footer": {
+	bottom: 20,
+	height: Ti.UI.SIZE,
+	width: "100%",
+	layout: "vertical"
+}
+
+".footer[if=Alloy.Globals.Device.isIphoneX]": {
+	bottom: 50
+}
+
+
+".register": {
+	top: 0,
+	height: 44,
+	borderRadius: 22,
+	width: "90%",
+	color: "#b7b7b7",
+	borderColor: "#b7b7b7",
+	text: "Already have your device? Create Account",
+	textAlign: "center",
+	font: {
+		fontSize: 13,
+		fontFamily: "Poppins-SemiBold"
+	}
+}
+
+
+".login": {
+	top: 15,
+	height: 44,
+	borderRadius: 22,
+	width: "90%",
+	color: "#b7b7b7",
+	borderColor: "#b7b7b7",
+	text: "Have an account? Login",
+	textAlign: "center",
+	font: {
+		fontSize: 13,
+		fontFamily: "Poppins-SemiBold"
+	}
+}

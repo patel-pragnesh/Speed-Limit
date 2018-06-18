@@ -1,0 +1,18 @@
+<Alloy>
+	<TableViewRow id="row">
+		<View layout="vertical" height="Ti.UI.SIZE" top="15">
+			<Label class="sectionTitle" />
+			<View class="card">
+				<ImageView id="image" />
+				<View class="container">
+					<View class="dateContainer">
+						<Label id="date" />
+						<Label id="time" />
+					</View>
+					<View class="separator" />
+					<Label id="type" />
+				</View>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

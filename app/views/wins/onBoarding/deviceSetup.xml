@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="win">
+		<LeftNavButton>
+			<Label class="cancel" onClick="close"/>
+		</LeftNavButton>
+		<TitleControl>
+			<ImageView image="/images/onBoarding/logo.png" />
+		</TitleControl>
+		<View layout="vertical">
+			<ImageView image="/images/onBoarding/deviceName.png" width="100%" height='Ti.UI.SIZE' />
+			<Label class="title" text="WHAT'S THE DEVICE NAME?"/>
+			<TextField id='name' />
+		</View>
+		<View class="footer">
+			<Button class="accept" onClick="addSpeedLimit" />
+			<Button class="read" />
+		</View>
+	</Window>
+</Alloy>

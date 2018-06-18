@@ -1,0 +1,17 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View class="card">
+			<View class="container">
+				<Label class="title" text="MAXIMUM SPEED ALLOWED"/>
+				<Label id="subtitle" text="Regardless of restrictions"/>
+				<View top="3" height="Ti.UI.SIZE" width="Ti.UI.SIZE" layout="horizontal">
+					<Label id="speed" />
+					<View touchEnabled="false" layout="vertical" bottom="0" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+						<Label class="editSpeed" />
+						<Label class="mph" />
+					</View>
+				</View>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

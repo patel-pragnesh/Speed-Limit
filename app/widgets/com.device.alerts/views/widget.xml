@@ -1,0 +1,13 @@
+<Alloy>
+	<TableViewRow id="row">
+		<Label class="sectionTitle" />
+		<View class="card">
+			<View class="container">
+				<Label id="title" />
+				<Label id="subtitle" />
+				<View class="separator" />
+				<Label id="time" />
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

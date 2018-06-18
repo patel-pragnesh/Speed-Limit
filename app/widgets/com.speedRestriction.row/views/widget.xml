@@ -1,0 +1,15 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View class="card">
+			<View class="container">
+				<Label class="title" text="SPEED RESTRICTION"/>
+				<View class="speedLimitContainer">
+					<Label class="subtitle" text="Posted speed limits"/>
+					<Label id="speedAbove" />
+					<Label class="arrow" />
+				</View>
+				<View class="separator" />
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

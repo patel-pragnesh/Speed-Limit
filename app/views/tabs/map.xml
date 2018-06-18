@@ -1,0 +1,39 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" title="SHAWN'S CAR" tabBarHidden="true">
+			<LeftNavButton>
+				<Label class="navButtons" text="e" onClick="disconnect" />
+			</LeftNavButton>
+
+			<RightNavButton>
+				<Label class="navButtons" text="h" />
+			</RightNavButton>
+
+			<Module id="mapview" module="ti.map" method="createView" />
+			<Button id="sateliteView" />
+			<View class="footer">
+				<View class="deviceContainer">
+					<Label id="device" text="Device status" />
+					<Label id="deviceStatus" text="Active" />
+				</View>
+				<View class="separator" />
+				<View class="speedContainer">
+					<View class="speedSubContainer">
+						<View height="Ti.UI.SIZE" layout="vertical" left="20" right="40">
+							<Label class="maxSpeed" />
+							<View onClick="speedLimiter" top="5" height="Ti.UI.SIZE" width="Ti.UI.SIZE" layout="horizontal">
+								<Label id="speed" />
+								<View touchEnabled='false' top="3" layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+									<Label class="editSpeed" />
+									<Label class="mph" />
+								</View>
+							</View>
+						</View>
+						<Label class="maxSpeedOnOff" />
+					</View>
+				</View>
+			</View>
+			<Widget src="com.app.tabbar" id="tabb" index="0" />
+		</Window>
+	</Tab>
+</Alloy>

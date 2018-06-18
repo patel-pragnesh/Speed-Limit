@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" title="SET CURFEWS">
+		<LeftNavButton>
+			<Label onClick="close" class="navBackButton"/>
+		</LeftNavButton>
+		<TableView id="scroll">
+			<Widget src="com.speedCurfew.row" id="speedCurfew" />
+		</TableView>
+		<View class="footer">
+			<Button class="accept" />
+		</View>
+	</Window>
+</Alloy>

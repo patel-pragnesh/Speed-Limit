@@ -1,0 +1,17 @@
+<Alloy>
+	<Tab id="tab">
+		<Window id="win" title="SHAWN'S CAR">
+			<LeftNavButton>
+				<Label class="navButtons" text="e" onClick="disconnect" />
+			</LeftNavButton>
+
+			<RightNavButton>
+				<Label class="navButtons" text="h" />
+			</RightNavButton>
+			<TableView dataCollection="histories" dataTransform="dataTransform">
+		  	<Widget src="com.trip.history" date="{date}" time="{time}" tripType="{type}" image="{image}" index="{index}" />
+		  </TableView>
+			<Widget src="com.app.tabbar" id="tabb" index="2" />
+		</Window>
+	</Tab>
+</Alloy>

@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="win" title="SET BOUNDERY">
+		<LeftNavButton>
+			<Label onClick="close" class="navBackButton"/>
+		</LeftNavButton>
+		<ScrollView id="scroll">
+			<Label class="title" text="ADDRESS"/>
+			<TextField id='address' />
+			<View id="mapsContainer" />
+			<View id="setBounderies" onClick="setMiles">
+				<Widget src="com.setBoundery.view" speed="5" />
+				<Widget src="com.setBoundery.view" speed="10" />
+				<Widget src="com.setBoundery.view" speed="15" />
+			</View>
+		</ScrollView>
+		<View class="footer">
+			<Button onClick="next" class="accept" />
+		</View>
+	</Window>
+</Alloy>

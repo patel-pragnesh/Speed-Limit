@@ -1,0 +1,26 @@
+'Window': {
+	largeTitleEnabled: false,
+	backgroundColor: '#fff',
+	barColor: "#FFF",
+	translucent: false,
+	backButtonTitle: "",
+	navTintColor: "#000",
+	tabBarHidden: true,
+	titleAttributes:{
+		color: '#000',
+		font: {
+			fontSize: 20,
+			fontFamily: "Futura-CondensedExtraBold",
+		}
+	}
+}
+
+'.navBackButton': {
+		font:{
+			fontSize: 16,
+			fontFamily: "iconfont"
+		},
+		textAlign: 'center',
+		color: "#000",
+		text: "b"
+}

@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="win" title="ADD BOUNDERY">
+		<LeftNavButton>
+			<Label onClick="close" class="navBackButton"/>
+		</LeftNavButton>
+		<TableView id="scroll">
+			<Widget src="com.speedExplanations.row" id="speedExplanations" />
+			<Widget src="com.speedBoundery.row" id="speedBoundery" />
+		</TableView>
+		<View class="footer">
+			<Button onClick="next" class="accept" />
+			<Button class="read" />
+		</View>
+	</Window>
+</Alloy>

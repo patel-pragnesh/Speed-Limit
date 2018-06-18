@@ -1,0 +1,26 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View class="card">
+			<View class="container">
+				<Label class="title" text="WEEKEND"/>
+				<View class="separator" />
+
+				<View class="timeContainer" height="Ti.UI.SIZE" layout="horizontal" right="20">
+					<Widget src="com.fromTo.view" id="from" />
+					<Widget src="com.fromTo.view" id="to" />
+				</View>
+
+				<View class="daysContainer" layout="vertical" height="Ti.UI.SIZE">
+					<Label class="days" text="Days" />
+					<View onClick="selectDay" id="bubbles" />
+				</View>
+
+				<View class="speedLimitContainer">
+					<Label class="subtitle" text="Status"/>
+					<Label id="onOff" text='ON'/>
+				</View>
+				<View class="separator" />
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

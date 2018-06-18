@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="win">
+		<LeftNavButton>
+			<Label class="cancel" onClick="close"/>
+		</LeftNavButton>
+		<TitleControl>
+			<ImageView image="/images/onBoarding/logo.png" />
+		</TitleControl>
+		<View layout="vertical">
+			<Label class="title" text="HI. WHAT'S YOUR NAME?"/>
+			<TextField id='name' />
+		</View>
+		<View class="footer">
+			<Button class="accept" onClick="deviceSetup" />
+		</View>
+	</Window>
+</Alloy>

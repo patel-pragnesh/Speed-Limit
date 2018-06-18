@@ -1,0 +1,28 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View class="card">
+			<View class="container">
+				<ImageView id="map">
+					<Label class="setBoundery">Tap to set Boundery</Label>
+				</ImageView>
+				<View id="subContainer" class="subContainer">
+					<Label class="title">SCHOOL</Label>
+					<View class="separator" />
+					<View class="speedLimitContainer">
+						<Label class="subtitle" text="Notify when"/>
+						<Label id="speedAbove" />
+						<Label class="arrow" />
+					</View>
+					<View class="separator" />
+					<View id="statusContainer" height="Ti.UI.SIZE" width="Ti.UI.FILL" layout="vertical">
+						<View class="speedLimitContainer">
+							<Label class="subtitle" text="Status"/>
+							<Label id="status" text="OFF"/>
+						</View>
+						<View class="separator" />
+					</View>
+				</View>
+			</View>
+		</View>
+	</TableViewRow>
+</Alloy>

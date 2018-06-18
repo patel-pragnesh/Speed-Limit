@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="win">
+		<LeftNavButton>
+			<Label class="cancel" onClick="close"/>
+		</LeftNavButton>
+		<TitleControl>
+			<ImageView image="/images/onBoarding/logo.png" />
+		</TitleControl>
+		<View class='container'>
+			<ImageView class="terms" />
+			<Label class="title" text='TERMS OF SERVICE'/>
+			<Label class="subtitle" text='By clicking Accept below you are agreeing the term and conditions of using the Device with this application.'/>
+		</View>
+		<View class="footer">
+			<Button class="accept" onClick="next" />
+			<Button class="read" />
+		</View>
+	</Window>
+</Alloy>

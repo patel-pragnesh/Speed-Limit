@@ -1,0 +1,24 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "os:windows": {},
+    "dependencies": {
+        "com.device.alerts": "1.0",
+        "com.trip.history": "1.0",
+        "com.maxSpeedAllowed.row": "1.0",
+        "com.speedRestriction.row": "1.0",
+        "com.speedExplanations.row": "1.0",
+        "com.speedBoundery.row": "1.0",
+        "com.speedCurfew.row": "1.0",
+        "com.fromTo.view": "1.0",
+        "com.app.tabbar": "1.0",
+        "com.days.view": "1.0",
+        "com.setBoundery.view": "1.0"
+    }
+}

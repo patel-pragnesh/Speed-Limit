@@ -1,0 +1,92 @@
+"Window": {
+	backgroundColor: '#F1F1F1',
+	backButtonTitle: ''
+}
+
+".cancel": {
+	text: "CANCEL",
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontFamily: "Futura-CondensedExtraBold"
+	}
+}
+
+
+"ImageView": {
+	height: 60
+}
+
+
+
+".title": {
+	top: 10,
+	color: '#000',
+	font: {
+		fontSize: 22,
+		fontFamily: "Futura-CondensedExtraBold"
+	},
+	height: Ti.UI.SIZE,
+	width: "90%",
+	textAlign: "left"
+}
+
+
+".footer": {
+	bottom: 20,
+	height: Ti.UI.SIZE,
+	width: "100%",
+	layout: "vertical"
+}
+
+".footer[if=Alloy.Globals.Device.isIphoneX]": {
+	bottom: 40
+}
+
+
+".accept": {
+	top: 0,
+	height: 44,
+	borderRadius: 22,
+	width: "90%",
+	color: "#FFF",
+	backgroundColor: "#5aacff",
+	title: "Start"
+}
+
+"#name": {
+	padding:{
+		left: 20,
+		right: 20
+	},
+	font: {
+		fontSize: 18,
+		fontFamily: "Poppins-Regular"
+	},
+	hintTextColor: "#000",
+	hintText: 'Name',
+	layout: "vertical",
+	top: 15,
+	height: 44,
+	width: "100%",
+	backgroundColor: "#FFF",
+	borderRadius: 5,
+	viewShadowColor: "#e3e3e3",
+	viewShadowOffset:{
+		x: 0,
+		y: -3
+	}
+}
+
+".read": {
+	top: 20,
+	color: '#5aacff',
+	font: {
+		fontSize: 16,
+		fontFamily: "HelveticaNeue"
+	},
+	height: Ti.UI.SIZE,
+	width: "100%",
+	textAlign: "center"	,
+	title: "Skip"
+}

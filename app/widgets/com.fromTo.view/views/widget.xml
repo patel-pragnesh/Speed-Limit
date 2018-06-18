@@ -1,0 +1,11 @@
+<Alloy>
+	<View class="container">
+		<Label id="title" />
+		<View class='timeContainer'>
+				<View class='time'>
+					<Label id="hour" />
+					<Label id="amPm" />
+				</View>
+		</View>
+	</View>
+</Alloy>

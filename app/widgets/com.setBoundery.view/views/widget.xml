@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="container">
+		<View class="subContainer">
+			<View class="speedContainer">
+				<Label id="speed" />
+				<Label class="mph" text="miles" />
+			</View>
+		</View>
+	</View>
+</Alloy>

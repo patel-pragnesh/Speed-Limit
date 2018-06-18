@@ -1,0 +1,34 @@
+'#tabsContainer': {
+	bottom: "0",
+	height: 49,
+	width: Ti.UI.FILL,
+	backgroundColor: "#222222"
+}
+
+'#tabsContainer[if=Alloy.Globals.Device.isIphoneX]': {
+	height: 73
+}
+
+'#tabs': {
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"Label": {
+	width: "33.2%",
+	height: Ti.UI.FILL,
+	font:{
+		fontSize: "20",
+		fontFamily: "iconfont"
+	},
+	textAlign: 'center',
+	color: "#888888",
+}
+
+'#separator': {
+	width:"33.3%",
+	left:"0",
+	height:"3",
+	top: 0,
+	backgroundColor:"#6eabf8",
+}

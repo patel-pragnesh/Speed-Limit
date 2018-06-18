@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="win" title="SPEED LIMITER">
+		<LeftNavButton>
+			<Label onClick="close" class="navBackButton"/>
+		</LeftNavButton>
+		<TableView id="scroll">
+			<Widget src="com.speedExplanations.row" id="speedExplanations" />
+			<Widget src="com.maxSpeedAllowed.row" id="maxSpeedAllowed" />
+			<Widget src="com.speedRestriction.row" id="speedRestriction" />
+		</TableView>
+		<View class="footer">
+			<Button class="accept" onClick="next" />
+			<Button class="read" />
+		</View>
+	</Window>
+</Alloy>

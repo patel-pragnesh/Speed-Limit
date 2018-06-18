@@ -1,0 +1,67 @@
+"Window": {
+	backgroundColor: '#F1F1F1',
+	backButtonTitle: ''
+}
+
+".cancel": {
+	text: "CANCEL",
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontFamily: "Futura-CondensedExtraBold"
+	}
+}
+
+"ImageView": {
+	height: 100
+}
+
+"TableView": {
+	backgroundColor: "transparent",
+	separatorColor: "transparent",
+	bottom: 70
+}
+
+"TableView[if=Alloy.Globals.Device.isIphoneX]": {
+	bottom: 130
+}
+
+
+".footer": {
+	bottom: 20,
+	height: Ti.UI.SIZE,
+	width: "100%",
+	layout: "vertical"
+}
+
+".footer[if=Alloy.Globals.Device.isIphoneX]": {
+	bottom: 40
+}
+
+
+".accept": {
+	top: 0,
+	height: 44,
+	borderRadius: 22,
+	width: "90%",
+	color: "#FFF",
+	backgroundColor: "#5aacff",
+	title: "Continue",
+	font: {
+		fontSize: 16,
+		fontFamily: "Poppins-SemiBold"
+	},
+}
+
+".read": {
+	top: 20,
+	color: '#a9a9a9',
+	font: {
+		fontSize: 16,
+		fontFamily: "Poppins-SemiBold"
+	},
+	height: Ti.UI.SIZE,
+	width: "100%",
+	textAlign: "center"	,
+	title: "Set Later"
+}

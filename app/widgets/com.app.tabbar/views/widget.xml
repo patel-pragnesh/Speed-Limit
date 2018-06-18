@@ -1,0 +1,10 @@
+<Alloy>
+	<View id="tabsContainer">
+		<View id="tabs">
+			<Label onClick="changeTab" tab="0" text="g" left="0"/>
+			<Label onClick="changeTab" tab="1" text="a"/>
+			<Label onClick="changeTab" tab="2" text="f" right="0" />
+		</View>
+		<View id="separator" />
+	</View>
+</Alloy>

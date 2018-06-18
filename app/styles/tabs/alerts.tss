@@ -1,0 +1,50 @@
+"Tab[platform=ios]": {
+	icon: "/images/tabbar/map_pin_angle_3.png",
+	iconIsMask: false,
+	iconInsets: {
+		top: 6
+	}
+}
+
+"Window" : {
+	tabBarHidden: true,
+	backgroundColor:"#f5f5f5",
+	titleAttributes:{
+		color: '#000',
+		font: {
+			fontSize: 20,
+			fontFamily: "Futura-CondensedExtraBold",
+		}
+	}
+}
+
+'.navButtons': {
+	font:{
+		fontSize: "20",
+		fontFamily: "iconfont"
+	},
+	textAlign: 'center',
+	color: "#000",
+}
+
+"TableView" : {
+	bottom: "44",
+	backgroundColor: "transparent",
+	separatorColor: "transparent"
+}
+
+'TableView[if=Alloy.Globals.Device.isIphoneX]': {
+	bottom: 73
+}
+
+".title" : {
+	text:"ALERTS",
+	top:10,
+	width:"90%",
+	textAlign:"left",
+	font:{
+		fontSize: "20",
+		fontFamily: "HelveticaNeue-Bold"
+	},
+	color: "#000"
+}

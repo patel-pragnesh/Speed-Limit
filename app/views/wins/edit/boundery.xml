@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="win" title="EDIT BOUNDERY">
+		<LeftNavButton>
+			<Label onClick="close" class="navBackButton"/>
+		</LeftNavButton>
+		<TableView id="scroll">
+			<Widget src="com.speedBoundery.row" id="speedBoundery" />
+		</TableView>
+		<View class="footer">
+			<Button onClick="next" class="accept" />
+		</View>
+	</Window>
+</Alloy>

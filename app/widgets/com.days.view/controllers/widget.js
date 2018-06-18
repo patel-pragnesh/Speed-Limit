@@ -1,0 +1,1 @@
+$.bubble.text= $.args.day;

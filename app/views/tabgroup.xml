@@ -1,0 +1,7 @@
+<Alloy>
+	<TabGroup id="window" activeTabIconTint="#EC6467" tabsTintColor="#EC6467" tintColor="#EC6467">
+		<Require src="tabs/map" id="map"/>
+		<Require src="tabs/alerts" id="alerts"/>
+		<Require src="tabs/history" id="history"/>
+	</TabGroup>
+</Alloy>

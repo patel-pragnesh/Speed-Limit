@@ -1,0 +1,21 @@
+<Alloy>
+	<TableViewRow class="row">
+		<View height="Ti.UI.SIZE" layout="vertical">
+			<View id="textsContainer">
+				<Label class='categories' textAlign="left">SPEED LIMITER</Label>
+				<Label class='categories'>BOUNDERY</Label>
+				<Label class='categories' textAlign="right">CURFEW</Label>
+			</View>
+			<View class='bubblesContainer'>
+				<View class='line' />
+				<View id="bubbles">
+					<View class='bubble' left='0' />
+					<View class='bubble' />
+					<View class='bubble' right='0' />
+				</View>
+			</View>
+			<Label class='title'>WHAT'S THIS?</Label>
+			<Label class='subtitle'>Text explaining this section, and what's the purpose. Loren Ipsum dolor sit amet consectetur, sed do eisumod, temp.</Label>
+		</View>
+	</TableViewRow>
+</Alloy>
